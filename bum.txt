@@ -1,0 +1,9 @@
+sudo tar xvjf Zotero-* -C /opt
+
+sudo mv /opt/Zotero_* /opt/zotero
+
+cd /opt/zotero
+
+sudo ./set_launcher_icon
+
+sudo ln -sf /opt/zotero/zotero.desktop ~/.local/share/applications/zotero.desktop
